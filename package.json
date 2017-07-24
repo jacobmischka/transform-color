@@ -1,0 +1,22 @@
+{
+  "name": "@jacobmischka/transform-color",
+  "version": "1.0.0",
+  "description": "Transforms a color to another color by a percentage.",
+  "main": "dist/index.cjs.js",
+  "module": "dist/index.js",
+  "repository": "https://github.com/jacobmischka/transform-color.git",
+  "author": "Jacob Mischka <jacob@mischka.me>",
+  "license": "MIT",
+  "scripts": {
+    "build": "rollup -c"
+  },
+  "files": [
+    "dist"
+  ],
+  "devDependencies": {
+    "rollup": "^0.45.2"
+  },
+  "dependencies": {
+    "color": "^2.0.0"
+  }
+}
